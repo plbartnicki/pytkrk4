@@ -6,7 +6,11 @@ class Helpful:
         for x in list:
             sum += x
         
-        return sum
+        return sum;
+		
+    @staticmethod
+    def multipl(a, b, c):
+        return a*b*c;
     
 h = Helpful()
 print(h.sum([1,2]))
