@@ -29,8 +29,10 @@ print(l1)
 print(l2)
 
 """
-Singleton - wzorzec strukturalny
+Singleton - wzorzec kreacyjny
+
 Cel: z pewnych powodow (np. oszczednsc pamieci RAM) nie chceby aby istniala > 1 instancja danej klasy
+
 Uwaga!
 Ponizszy przyklad implementacji Singletona
 dotyczy sytuacji gdy wiemy ze instancji
