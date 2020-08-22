@@ -49,7 +49,7 @@ class UserManager:
         return False
             
     @staticmethod
-    def getInstance():
+    def get_instance():
         if UserManager.__instance == None:
             UserManager()
         
